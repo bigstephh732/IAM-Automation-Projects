@@ -74,7 +74,13 @@ Sign-in logs confirmed:
 CA-Require-MFA-All-Users → Success
 Grant control → Require MFA
 
-### Test 2 – Legacy Authentication Block (Simulation)
+### Test 2 – Device Compliance Enforcement
+Signed in as admin group member.
+Sign-in logs confirmed:
+CA-Require-Compliant-Device-Admins evaluated
+Grant control enforced
+
+### Test 3 – Legacy Authentication Block (Simulation)
 Used Conditional Access What If Tool.
 Configuration:
 User → lab-user1
@@ -83,12 +89,6 @@ Client App → Exchange ActiveSync clients
 Result:
 CA-Block-Legacy-Auth → Blocked
 This confirms legacy authentication attempts would be denied.
-
-### Test 3 – Device Compliance Enforcement
-Signed in as admin group member.
-Sign-in logs confirmed:
-CA-Require-Compliant-Device-Admins evaluated
-Grant control enforced
 
 
 ### Policy Evaluation Logic
