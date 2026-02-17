@@ -27,21 +27,24 @@ No manual intervention required.
 
 
 ### Configuration Steps
-Step 1 – Created Security Group
+### Step 1 – Created Security Group
 Created:
 IAM-Project-Access
 Used as resource granted by access package.
-Step 2 – Created Catalog
+
+### Step 2 – Created Catalog
 Created:
 IAM-Automation-Catalog
 Added IAM-Project-Access as a resource.
-Step 3 – Created Access Package
+
+### Step 3 – Created Access Package
 Created:
 Time-Bound-Project-Access
 Added resource role:
 IAM-Project-Access
 Member
-Step 4 – Configured Assignment Policy
+
+### Step 4 – Configured Assignment Policy
 Configured:
 Users in directory may request
 No approval required
@@ -57,12 +60,14 @@ User:
 lab-user1
 Requested access via:
 https://myaccess.microsoft.com
-Access granted automatically.
-Test 2 – Verify Assignment
+Access granted automatically.  
+
+Test 2 – Verify Assignment  
 Verified:
 Assignment status = Delivered
 Expiration date assigned
-Confirmed user added to IAM-Project-Access group.
+Confirmed user added to IAM-Project-Access group.  
+
 Test 3 – Lifecycle Logic Confirmation
 Reviewed assignment record:
 Start date
@@ -73,28 +78,28 @@ This confirms lifecycle-based access control.
 
 ### Automation Behavior
 The system automatically:  
-Provisions group membership  
-Sets expiration timestamp  
-Removes access after expiration  
-Maintains audit records  
-No administrator cleanup required.  
+-Provisions group membership  
+-Sets expiration timestamp  
+-Removes access after expiration  
+-Maintains audit records  
+-also No administrator cleanup required.  
 
 
 ### Security Impact
-Prevents access creep.  
-Reduces forgotten permissions.  
-Enforces least privilege.  
-Automates onboarding/offboarding.  
-Supports audit and compliance requirements.  
+-Prevents access creep.  
+-Reduces forgotten permissions.  
+-Enforces least privilege.  
+-Automates onboarding/offboarding.  
+-Supports audit and compliance requirements.  
 
 
 ### IAM Concepts Demonstrated
-Entitlement Management  
-Access Packages  
-Assignment Policies  
-Time-bound access  
-Automatic removal  
-Governance-based access control  
+-Entitlement Management  
+-Access Packages  
+-Assignment Policies  
+-Time-bound access  
+-Automatic removal  
+-Governance-based access control  
 
 
 ### Summary
