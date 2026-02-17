@@ -6,24 +6,26 @@ Implement automated lifecycle-based access control using Microsoft Entra Entitle
 
 
 ### Objective
-Automate access provisioning  
-Enforce time-limited access  
-Automatically remove access on expiration  
-Demonstrate governance-driven IAM model  
+-Automate access provisioning  
+-Enforce time-limited access  
+-Automatically remove access on expiration  
+-Demonstrate governance-driven IAM model  
 
 
 ### Architecture Overview
+
 Components Used:
-Security Group: IAM-Project-Access
-Catalog: IAM-Automation-Catalog
-Access Package: Time-Bound-Project-Access
-Assignment Policy: 7-Day Expiration
+-Security Group: IAM-Project-Access
+-Catalog: IAM-Automation-Catalog
+-Access Package: Time-Bound-Project-Access
+-Assignment Policy: 7-Day Expiration
+
 Access Flow:
-User requests access
-System grants access automatically
-Expiration timestamp assigned
-Access automatically removed after 7 days
-No manual intervention required.
+1. User requests access
+2. System grants access automatically
+3. Expiration timestamp assigned
+4. Access automatically removed after 7 days
+5. No manual intervention required.
 
 
 ### Configuration Steps
@@ -46,12 +48,13 @@ Member
 
 ### Step 4 – Configured Assignment Policy
 Configured:
-Users in directory may request
-No approval required
-Access duration = 7 days
-Expire access
-Remove access automatically
-This enforces lifecycle automation.
+-Users in directory may request
+-No approval required
+-Access duration = 7 days
+-Expire access
+-Remove access automatically
+
+*This enforces lifecycle automation.
 
 
 ### Validation & Testing
