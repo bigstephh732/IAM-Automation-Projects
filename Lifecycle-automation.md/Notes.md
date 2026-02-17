@@ -6,10 +6,10 @@ Implement automated lifecycle-based access control using Microsoft Entra Entitle
 
 
 ### Objective
-Automate access provisioning
-Enforce time-limited access
-Automatically remove access on expiration
-Demonstrate governance-driven IAM model
+Automate access provisioning  
+Enforce time-limited access  
+Automatically remove access on expiration  
+Demonstrate governance-driven IAM model  
 
 
 ### Architecture Overview
@@ -72,29 +72,29 @@ This confirms lifecycle-based access control.
 
 
 ### Automation Behavior
-The system automatically:
-Provisions group membership
-Sets expiration timestamp
-Removes access after expiration
-Maintains audit records
-No administrator cleanup required.
+The system automatically:  
+Provisions group membership  
+Sets expiration timestamp  
+Removes access after expiration  
+Maintains audit records  
+No administrator cleanup required.  
 
 
 ### Security Impact
-Prevents access creep
-Reduces forgotten permissions
-Enforces least privilege
-Automates onboarding/offboarding
-Supports audit and compliance requirements
+Prevents access creep  
+Reduces forgotten permissions  
+Enforces least privilege  
+Automates onboarding/offboarding  
+Supports audit and compliance requirements  
 
 
 ### IAM Concepts Demonstrated
-Entitlement Management
-Access Packages
-Assignment Policies
-Time-bound access
-Automatic removal
-Governance-based access control
+Entitlement Management  
+Access Packages  
+Assignment Policies  
+Time-bound access  
+Automatic removal  
+Governance-based access control  
 
 
 ### Summary
