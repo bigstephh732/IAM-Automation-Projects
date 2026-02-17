@@ -81,11 +81,11 @@ No administrator cleanup required.
 
 
 ### Security Impact
-Prevents access creep  
-Reduces forgotten permissions  
-Enforces least privilege  
-Automates onboarding/offboarding  
-Supports audit and compliance requirements  
+Prevents access creep.  
+Reduces forgotten permissions.  
+Enforces least privilege.  
+Automates onboarding/offboarding.  
+Supports audit and compliance requirements.  
 
 
 ### IAM Concepts Demonstrated
