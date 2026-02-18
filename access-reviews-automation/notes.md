@@ -82,7 +82,7 @@ The system automatically:
 -Applies results  
 -Removes access when denied or unreviewed  
 
-No manual permission cleanup required.
+*No manual permission cleanup required.
 
 ### Security Impact
 -Prevents stale permissions  
